@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "480964305091",
+    "project_id": "loginapi-fec04",
+    "storage_bucket": "loginapi-fec04.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:480964305091:android:1b4fe4d74ffac57cea4276",
+        "android_client_info": {
+          "package_name": "com.login_api"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "480964305091-id985qsg958vgaov5f8kormjk7oj8aqb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.login_api",
+            "certificate_hash": "57fb48e1e8db4b566d12d9629b670d1a3dd8f243"
+          }
+        },
+        {
+          "client_id": "480964305091-54ncmoo45g5tvtdgcoqvrdpb23dj17cg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsQdsVMfSQMCwQ8d0ykxEFLs55svTBkis"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "480964305091-54ncmoo45g5tvtdgcoqvrdpb23dj17cg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
