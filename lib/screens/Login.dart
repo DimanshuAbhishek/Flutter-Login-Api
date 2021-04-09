@@ -1,7 +1,7 @@
-
 import 'package:firebase_auth/firebase_auth.dart';
 
 import 'package:flutter/material.dart';
+
 //Stateful Widget
 class LoginAuth extends StatefulWidget {
   @override
@@ -42,7 +42,7 @@ class _LoginAuthState extends State<LoginAuth> {
               padding: EdgeInsets.all(20),
               //form
               child: Form(
-                //global key
+                  //global key
                   key: _formkey,
                   child: Column(
                     children: [
@@ -69,13 +69,20 @@ class _LoginAuthState extends State<LoginAuth> {
                         height: 20,
                       ),
                       RaisedButton(
-                        child: Text("SingUp",style: TextStyle(color: Colors.black,fontWeight: FontWeight.bold,fontSize: 30.0),),
+                        child: Text(
+                          "SingUp",
+                          style: TextStyle(
+                              color: Colors.black,
+                              fontWeight: FontWeight.bold,
+                              fontSize: 30.0),
+                        ),
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(18.0),
                           side: BorderSide(color: Colors.red),
                         ),
                         onPressed: () async {
-                          await auth.createUserWithEmailAndPassword(email: _email.text, password: _password.text);
+                          await auth.createUserWithEmailAndPassword(
+                              email: _email.text, password: _password.text);
                         },
                       )
                     ],
